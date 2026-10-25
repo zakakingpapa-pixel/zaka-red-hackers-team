@@ -26,7 +26,7 @@ The launcher keeps Codex's normal sandbox and approval behavior. It removes `OPE
 ## Install from this repository
 
 ```sh
-git clone https://github.com/OWNER/zaka-red-hackers-team.git
+git clone https://github.com/zakakingpapa-pixel/zaka-red-hackers-team.git
 cd zaka-red-hackers-team
 chmod +x zaka-red-hackers-team
 ```
