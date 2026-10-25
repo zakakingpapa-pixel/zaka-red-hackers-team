@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if ! command -v codex >/dev/null 2>&1; then
+  echo "Codex CLI is not installed. Install it, then run: codex login" >&2
+  exit 127
+fi
+
+# Prefer the existing ChatGPT sign-in rather than an API key from the shell.
+unset OPENAI_API_KEY
+printf '\033[32mZAKA RED HACKERS TEAM\033[0m · coding assistant\n'
+exec codex "$@"
